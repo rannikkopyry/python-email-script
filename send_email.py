@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv  # pip install python-dotenv
 
 PORT = 587  
-EMAIL_SERVER = "smtp-mail.outlook.com"  # Adjust server address, if you are not using @outlook
+EMAIL_SERVER = "smtp.gmail.com"  # Adjust server address, if you are not using @outlook
 
 # Load the environment variables
 current_dir = Path(__file__).resolve().parent if "__file__" in locals() else Path.cwd()
